@@ -1,17 +1,3 @@
-# yarb (Yet Another Rss Bot)
-
-一个方便获取每日安全资讯的爬虫和推送程序。支持导入 opml 文件，因此也可以订阅其他任何 RSS 源。
-
-**懒人福音，每日自动更新，点击右上角 Watch 即可：[每日安全资讯](./today.md)，[历史存档](./archive)**
-
-- [yarb (Yet Another Rss Bot)](#yarb-yet-another-rss-bot)
-  - [安装](#安装)
-  - [运行](#运行)
-    - [本地搭建](#本地搭建)
-    - [Github Actions](#github-actions)
-  - [订阅源](#订阅源)
-  - [关注我们](#关注我们)
-
 ## 安装
 
 ```sh
@@ -106,11 +92,3 @@ $ nohup ./yarb.py --cron 11:00 > run.log 2>&1 &
 </body>
 </opml>
 ```
-
-## 关注我们
-
-[VulnTotal安全团队](https://github.com/VulnTotal-Team)成立于2022年。致力于分享高质量原创文章和开源工具，包括Web安全、移动安全、物联网/汽车安全、代码审计、网络攻防等，欢迎[关注或加入我们](https://github.com/VulnTotal-Team/.github/blob/main/README.md)！
-
-GNU General Public License v3.0
-
-[![Stargazers over time](https://starchart.cc/VulnTotal-Team/yarb.svg)](https://starchart.cc/VulnTotal-Team/yarb)
